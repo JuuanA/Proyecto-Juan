@@ -347,3 +347,48 @@ nav ul li a:hover {
     justify-content: center;
     justify-content: space-evenly;
 }
+
+/* ANIMACIONES */
+
+.tiendaDeRopa {
+    background-color: #fee3ff;
+    /* transition: height 0.1s , widht 0.6s; */
+    transition: all 0.2s;
+}
+
+.tiendaDeRopa:hover {
+    background-color: #642B73;
+}
+
+/* .inicio {
+    background-color: #C6426E;
+    transition: all 0.3s;
+} */
+
+.inicio:hover{
+    background-color: #642B73;
+    height: 25px;
+    width: 40px;
+    border-radius: 20px;
+}
+.stock:hover{
+    background-color: #642B73;
+    height: 25px;
+    border-radius: 20px;
+}
+.contacto:hover{
+    background-color: #642B73;
+    height: 25px;
+    border-radius: 30px;
+}
+.ubicacion:hover{
+    background-color: #642B73;
+    height: 25px;
+    border-radius: 20px;
+}
+.preguntas:hover{
+    background-color: #642B73;
+    height: 20px;
+    width: auto;
+    border-radius: 20px;
+}
