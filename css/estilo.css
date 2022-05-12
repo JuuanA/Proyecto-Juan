@@ -352,7 +352,6 @@ nav ul li a:hover {
 
 .tiendaDeRopa {
     background-color: #fee3ff;
-    /* transition: height 0.1s , widht 0.6s; */
     transition: all 0.2s;
 }
 
@@ -360,10 +359,6 @@ nav ul li a:hover {
     background-color: #642B73;
 }
 
-/* .inicio {
-    background-color: #C6426E;
-    transition: all 0.3s;
-} */
 
 .inicio:hover{
     background-color: #642B73;
