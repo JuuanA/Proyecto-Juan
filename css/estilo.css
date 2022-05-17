@@ -61,15 +61,29 @@ li {
 .hijoFlex {
     justify-content: right;
     align-items: flex-end;
+    width: 190px;
 }
 
-footer {
+.hijoFlexUno {
+    justify-content: right;
+    align-items: flex-end;
+    width: 250px;
+    height: auto;
+}
+
+.hijoFlexDos {
+    justify-content: right;
+    align-items: flex-end;
+    width: 180px;
+    height: auto;
+}
+
+
+.colorFooter {
+    background-color: none;
     display: flex;
-    justify-content: center;
-    justify-items: end;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
+    align-items: flex-end;
+    margin-top: 10%;
 }
 
 .headerform {
@@ -111,15 +125,6 @@ li a {
 
 .navubi {
     text-align: center;
-}
-
-.footerubi {
-    text-align: center;
-}
-
-.footerin {
-    position: relative;
-    bottom: 0%;
 }
 
 .titulostock {
@@ -351,39 +356,49 @@ nav ul li a:hover {
 /* ANIMACIONES */
 
 .tiendaDeRopa {
-    background-color: #fee3ff;
-    transition: all 0.2s;
+    background-color: none;
+    animation-duration: 3s;
 }
 
-.tiendaDeRopa:hover {
-    background-color: #642B73;
-}
-
-
-.inicio:hover{
+.inicio:hover {
     background-color: #642B73;
     height: 25px;
-    width: 40px;
+    width: 10%;
     border-radius: 20px;
+    text-decoration: none;
 }
-.stock:hover{
+
+.stock:hover {
     background-color: #642B73;
     height: 25px;
     border-radius: 20px;
 }
-.contacto:hover{
+
+.contacto:hover {
     background-color: #642B73;
     height: 25px;
     border-radius: 30px;
 }
-.ubicacion:hover{
+
+.ubicacion:hover {
     background-color: #642B73;
     height: 25px;
     border-radius: 20px;
 }
-.preguntas:hover{
+
+.preguntas:hover {
     background-color: #642B73;
     height: 20px;
     width: auto;
     border-radius: 20px;
+}
+
+
+.slide {
+    margin-top: 10px;
+
+}
+
+.slide img {
+    height: 65vh;
 }
