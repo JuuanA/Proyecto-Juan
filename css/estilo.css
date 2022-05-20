@@ -28,7 +28,6 @@ main {
     width: 100%;
     object-fit: cover;
     justify-content: center;
-
 }
 
 .navBackground {
@@ -101,7 +100,7 @@ li {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    height: 400px;
+    height: 490px;
 
 }
 
@@ -210,47 +209,10 @@ nav ul li a:hover {
 }
 
 
-@media (max-width:375px) {
+@media (max-width:35px) {
     .checkbtn {
         display: block;
     }
-
-    .listas {
-        flex-direction: column;
-        background-color: #C6426E;
-        height: 60%;
-    }
-
-    .menuIcon {
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-    }
-
-
-    nav ul {
-        display: block;
-        position: fixed;
-        top: 70px;
-        left: -1000%;
-        width: 97%;
-        height: 100vh;
-        right: 0;
-    }
-
-    nav ul li {
-        padding: 2rem;
-        display: block;
-        justify-content: center;
-        margin: 0;
-    }
-
-    #check:checked~ul {
-        left: 0;
-    }
-
     .padreFlex {
         display: none;
     }
