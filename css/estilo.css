@@ -79,10 +79,9 @@ li {
 
 
 .colorFooter {
-    background-color: none;
-    display: flex;
+    /* background-color: none;
     align-items: flex-end;
-    margin-top: 10%;
+    margin-top: 10%; */
 }
 
 .headerform {
