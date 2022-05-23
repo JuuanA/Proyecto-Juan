@@ -46,23 +46,25 @@
     </header>
     <main class="mainform">
 
-        <form class="form">
-            <fieldset>
-                <legend>Formulario De Contacto</legend>
-                <label for="Nombre">Nombre</label>
-                <input id="Nombre" name="" id="" placeholder="Ingrese su nombre aqui">
-                <br> <br>
-                <label for="Apellido">Apellido</label>
-                <input id="Apellido" name="" id="" placeholder="Ingrese su nombre aqui">
-                <br><br>
-                <label for="">Correo Electronico</label>
-                <input type="Email" name="" id="" placeholder="Ingrese su nombre aqui">
-                <br> <br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <br><br>
-                <input type="Submit">
-                <input type="Reset" value="Borra todo por favor">
+        <form class="row form">
+            <div class="col-3 form">
+                <label for="emailInput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Escribe Tu Email">
+            </div>
+            <div class="col-3 form">
+                <label for="inputnombre" class="form-label">Nombre</label>
+                <input type="nombre" class="form-control" id="inputnombre" placeholder="Escribe Tu Nombre">
+            </div>
+            <div class="col-3 form">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="apellido" class="form-control" id="inputApellido" placeholder="Escribe Tu Apellido">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe Tu pregunta"></textarea>
+            <input type="Submit">
+                <input type="Reset" value="Borrar todo">
             </fieldset>
+            
+
         </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
