@@ -1,0 +1,15 @@
+@mixin anuncio {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 2px black solid;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 2px;
+    margin: 30px;
+}
+
+.anuncios {
+    @include anuncio;
+}

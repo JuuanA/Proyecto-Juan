@@ -1,0 +1,11 @@
+/* MAPS */
+
+$estiloCards:(display:flex, justify-content:center);
+
+.card-text {
+    display: map-get($estiloCards,display);
+    justify-content: map-get($estiloCards,justify-content)
+}   .precioStock {
+    display: map-get($estiloCards, display);
+    justify-content: map-get($estiloCards,justify-content);
+}
