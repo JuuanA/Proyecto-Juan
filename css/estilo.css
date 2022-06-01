@@ -5,7 +5,7 @@ html {
   min-height: 100%; }
 
 /* MAPS */
-.card-text {
+.card-text, .precioStock {
   display: flex;
   justify-content: center; }
 
@@ -23,6 +23,14 @@ html {
   justify-content: center;
   padding: 2px;
   margin: 30px; }
+
+.card-text, .precioStock {
+  display: flex;
+  justify-content: center; }
+
+.precioStock {
+  color: #FCCCDE;
+  background-color: #DB6B96; }
 
 body {
   min-height: 100%;

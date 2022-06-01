@@ -1,0 +1,14 @@
+
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.precioStock{
+    @extend .card-text;
+    color: #FCCCDE;
+    background-color: #DB6B96;
+}
