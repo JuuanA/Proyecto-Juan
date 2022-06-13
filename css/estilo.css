@@ -178,11 +178,6 @@ nav ul li a:hover {
   .carousel-item {
     height: 520px;
   }
-
-  .padreFlex {
-    display: none;
-  }
-
   .medio {
     display: flex;
     height: auto;
@@ -213,6 +208,12 @@ nav ul li a:hover {
 
   .listas {
     flex-grow: 1;
+  }
+  .anuncios {
+    width: 86%;
+  }
+  .anuncios li {
+    font-size: 12px;
   }
 }
 
