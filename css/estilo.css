@@ -362,3 +362,28 @@ nav ul li a:hover {
   color: #FCCCDE;
   background-color: #DB6B96;
 }
+
+.accordion-header {
+  text-align: center;
+  background-color: pink;
+}
+
+.accordion-body {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(241, 124, 144);
+}
+
+.accordion-item {
+  background-color: rgb(252, 210, 217);
+}
+
+.strongText {
+  color: rgb(219, 123, 140);
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3%);
+  overflow: hidden;
+}
