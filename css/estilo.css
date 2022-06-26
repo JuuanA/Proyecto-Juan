@@ -48,6 +48,27 @@ li {
   flex-direction: column;
 }
 
+.email {
+  text-align: center;
+  width: 100%;
+}
+
+.nombre {
+  text-align: center;
+  width: 100%;
+}
+
+.apellido {
+  text-align: center;
+  width: 100%;
+}
+
+.insertarTexto {
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+}
+
 .form {
   display: flex;
   justify-content: center;
@@ -178,6 +199,7 @@ nav ul li a:hover {
   .carousel-item {
     height: 520px;
   }
+
   .medio {
     display: flex;
     height: auto;
@@ -209,9 +231,11 @@ nav ul li a:hover {
   .listas {
     flex-grow: 1;
   }
+
   .anuncios {
     width: 86%;
   }
+
   .anuncios li {
     font-size: 80%;
   }
